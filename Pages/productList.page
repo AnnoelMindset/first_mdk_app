@@ -1,0 +1,22 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FlexibleColumnLayout",
+			"_Name": "FlexibleColumnLayout0",
+			"StartColumn": {
+				"_Name": "Product",
+				"PageToOpen": "/DemoSampleApp/Pages/products.page"
+			},
+			"EndColumn": {
+				"_Name": "Description",
+				"PageToOpen": "/DemoSampleApp/Pages/products_info.page"
+			}
+		}
+	],
+	"DesignTimeTarget": {
+		"Service": "/DemoSampleApp/Services/SampleServiceV2.service",
+		"EntitySet": "Products"
+	},
+	"_Type": "Page",
+	"_Name": "productList"
+}

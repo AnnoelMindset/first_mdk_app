@@ -1,0 +1,26 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.BottomNavigation",
+			"_Name": "BottomNavigation0",
+			"Items": [
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "Customer",
+					"Image": "sap-icon://customer",
+					"PageToOpen": "/DemoSampleApp/Pages/Customer_list.page",
+					"_Name": "TabItem0"
+				},
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "Product",
+					"Image": "sap-icon://product",
+					"PageToOpen": "/DemoSampleApp/Pages/productList.page",
+					"_Name": "TabItem1"
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "landing_page"
+}

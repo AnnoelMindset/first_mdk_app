@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavToCustomers_list"
+	},
+	"PageToOpen": "/DemoSampleApp/Pages/Customer_list.page"
+}

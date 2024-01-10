@@ -1,0 +1,58 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ProfileHeader",
+					"_Name": "SectionProfileHeader0",
+					"Visible": true,
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"ProfileHeader": {
+						"DetailImage": "sap-icon://supplier",
+						"DetailImageIsCircular": true,
+						"Headline": "{SupplierName}",
+						"Subheadline": "{SupplierId}",
+						"Description": "{Country}",
+						"ActivityItems": [
+							{
+								"_Name": "SectionProfileHeader0ActivityItems0",
+								"ActivityType": "Phone",
+								"ActivityValue": "{PhoneNumber}"
+							},
+							{
+								"_Name": "SectionProfileHeader0ActivityItems1",
+								"ActivityType": "Email",
+								"ActivityValue": "{EmailAddress}"
+							},
+							{
+								"_Name": "SectionProfileHeader0ActivityItems2",
+								"ActivityType": "Detail",
+								"ActivityValue": "{PostalCode}"
+							}
+						],
+						"Target": {
+							"Service": "/DemoSampleApp/Services/SampleServiceV2.service",
+							"EntitySet": "Suppliers"
+						}
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "suplier_Details",
+	"Caption": "Supplier Details",
+	"PrefersLargeCaption": true
+}

@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "to_supllier_detials"
+	},
+	"PageToOpen": "/DemoSampleApp/Pages/suplier_details.page"
+}
